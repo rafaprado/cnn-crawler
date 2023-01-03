@@ -1,0 +1,20 @@
+{
+    "name": "rafaprado/noticias",
+    "description": "Um projeto que tem por objetivo obter as noticias mais lidas do portal G1, feito para fins de estudo",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Rafael Prado"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5",
+        "symfony/dom-crawler": "^6.2",
+        "symfony/css-selector": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "CnnExplorer\\NewsSearcher\\": "src/"
+        }
+    }
+}
